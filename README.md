@@ -2,4 +2,4 @@
 
 Hello, world!
 
-![Monterey Mural](/assets/mural.jpg)
+![Monterey Mural](/assets/The-Monterey-Mural-Guillermo-Wagner-Granizo-1983.jpg)
