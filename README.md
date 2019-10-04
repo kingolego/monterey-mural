@@ -1,4 +1,4 @@
-# *The Monterey Mural* by ##Guillermo Wagner Granizo##
+# *The Monterey Mural* by **Guillermo Wagner Granizo**
 
 <!-- ![Monterey Mural](/assets/The-Monterey-Mural-Guillermo-Wagner-Granizo-1983.jpg) -->
 
