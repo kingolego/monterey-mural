@@ -1,7 +1,7 @@
 title: The Monterey Mural
 description: A tribute to the colorful tile mural history of Monterey, California, created by Guillermo Wagner Granizo in 1984. The mural is displayed on the west wall of the Monterey Conference Center and features over 100 scenes from 300 years of history in (Alta) California’s first capital.
 google_analytics: 
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-midnight
 
 gems:
