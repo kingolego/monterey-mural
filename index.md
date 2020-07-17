@@ -10,7 +10,7 @@
     width="2658">
 
 <map name="image-map">
-    <area target="_blank" alt="Section 1" href="/mural/sections/mural-section1.jpg" coords="0,0,180,628" shape="rect">
+    <area target="_blank" alt="Section 1" href="/monterey-mural/mural/sections/mural-section1.jpg" coords="0,0,180,628" shape="rect">
     <area target="_blank" alt="Section 2" href="/mural/sections/mural-section2.jpg" coords="181,0,682,628" shape="rect">
     <area target="_blank" alt="Section 3" href="/mural/sections/mural-section3.jpg" coords="683,0,1242,628" shape="rect">
     <area target="_blank" alt="Section 4" href="/mural/sections/mural-section4.jpg" coords="1242,0,1838,628" shape="rect">
