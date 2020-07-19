@@ -50,7 +50,6 @@
         height: 30px;
       }
       nav {
-        list-style-type: none;
         text-align: right;
         margin: 0;
         padding: 0;
@@ -61,6 +60,9 @@
       }
       nav li a:hover {
         font-style: italic;
+      }
+      ol.unadorned {
+        list-style-type: none;
       }
       li > article > * {
         margin-bottom: 4px;
@@ -79,9 +81,11 @@
       
   <header>
     <nav>
-      <li><a href="https://www.amazon.com/Guillermo-Granizo-Autobiography-Illustrated-Ceramic/dp/1545374201">About the Artist</a></li>
-      <li><a href="https://goo.gl/maps/2L8hA37ys8Sr69MLA">Find the Mural</a></li>
-      <li><a href="https://github.com/kingolego/monterey-mural">View on GitHub</a></li>
+      <ol class="unadorned">
+        <li><a href="https://www.amazon.com/Guillermo-Granizo-Autobiography-Illustrated-Ceramic/dp/1545374201">About the Artist</a></li>
+        <li><a href="https://goo.gl/maps/2L8hA37ys8Sr69MLA">Find the Mural</a></li>
+        <li><a href="https://github.com/kingolego/monterey-mural">View on GitHub</a></li>
+      </ol>
     </nav>
   </header>
     
@@ -147,7 +151,7 @@
       <section id="links">
         <h2>More about the <i>Mural</i></h2>
         <!-- manually curated, so using ordered list...but without ordinals -->
-        <ol class="external-links" style="list-style-type: none;">
+        <ol class="unadorned">
           <li hidden id="template" class="featured-link">
             <article class="external-link">
               <img hidden src="https://www.example.com/" alt="" />
