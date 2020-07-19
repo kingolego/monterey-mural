@@ -61,10 +61,10 @@
       nav li a:hover {
         font-style: italic;
       }
-      li article {
-        margin: 8px;
+      li > article > h3 {
+        margin-bottom: 4px;
       }
-      li article img {
+      li > article > img {
         width: 32px;
         height: 32px;
         float: left;
@@ -130,7 +130,8 @@
       
       <section id="artist">
         <hgroup>
-        <h2>About maestro <i>Guillermo Wagner Granizo</i></h2>
+        <h2>About <em>maestro</em> <a title="on Wikipedia" href="https://en.wikipedia.org/wiki/Guillermo_Wagner_Granizo">
+          Guillermo Wagner Granizo</a></h2>
         <h3>On the Web</i></h3>
         </hgroup>
       </section><!-- end artist section -->
@@ -150,8 +151,7 @@
           <li class="about">
             <article class="external-link">
               <img src="https://walkmonterey.com/favicon.icon" alt="on Monterey Walking Tours" />
-              <h3><a title="on Monterey Walking Tours"
-                href="https://walkmonterey.com/guillermo-wagner-granizo-making-the-monterey-mural/" >
+              <h3><a title="on Monterey Walking Tours" href="https://walkmonterey.com/guillermo-wagner-granizo-making-the-monterey-mural/" >
                 <cite>&ldquo;The Monterey Mural&rdquo;</cite> by Thom Diggins</a></h3>
               <p>Thom <em>digs</em> into <cite>The Monterey Herald</cite> archives for some great background on the making of the mural.</p>
             </article>
@@ -159,8 +159,7 @@
           <li class="about">
             <article class="external-link">
               <img hidden src="" alt="" />
-              <h3><a title="on Medium" 
-                href="https://medium.com/@davidlaws/montereys-monumental-mosaic-mural-memorializes-marauding-mariners-more-3d6fa7f4881a" >
+              <h3><a title="on Medium" href="https://medium.com/@davidlaws/montereys-monumental-mosaic-mural-memorializes-marauding-mariners-more-3d6fa7f4881a" >
                 <cite>&ldquo;...Mural Memorializes Marauding Mariners & More&rdquo;</cite> by David Laws</a></h3>
               <blockquote>
                 ...just a few yards off the [beaten<em>, Ed.</em>]
