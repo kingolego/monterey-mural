@@ -76,11 +76,16 @@
         margin-right: 8px;
       }
       dd {
-        display: inline-block;
         font-style: italic;
       }
-      dt::after {
+      dt + dd {
+        display: inline-block;
+      }
+      dt + dd::before {
         content: " ... ";
+      }
+      dt {
+        display: inline-block;
       }
     </style>
   </head>
