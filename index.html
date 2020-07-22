@@ -113,8 +113,9 @@
     <nav>
       <ol class="unadorned">
         <li><a href="#artist">About the Artist</a></li>
-        <li><a href="https://goo.gl/maps/2L8hA37ys8Sr69MLA">Find the Mural</a></li>
-        <li><a href="https://github.com/kingolego/monterey-mural">View on GitHub</a></li>
+        <li><a title="on Google Maps" rel="noopener nofollow"
+          href="https://goo.gl/maps/2L8hA37ys8Sr69MLA">Find the Mural</a></li>
+        <li><a rel="noopener nofollow" href="https://github.com/kingolego/monterey-mural">View on GitHub</a></li>
       </ol>
     </nav>
   </header>
@@ -158,14 +159,17 @@
         </blockquote>
       </section><!-- end synopsis section -->
 
-      <section id="frontispiece" style="overflow-x: scroll; overflow-y: hidden; width: 100%; height: 428px;">
+      <section id="frontispiece">
         <h2 hidden>FrontisPiece</h2>
         
-        <!-- see https://help.flickr.com/en_us/share-or-embed-flickr-photos-or-albums-rJBx6mjyX -->
-        <a data-flickr-embed="true" title="The Monterey Mural">
-          <img src="https://live.staticflickr.com/65535/48291467982_4c00681ae3_k.jpg" width="2048" height="428" alt="The Monterey Mural">
-        </a>
-        <script async src="//embedr.flickr.com/assets/client-code.js"></script>
+        <div id="embed-flickr" style="overflow-x: scroll; overflow-y: hidden; width: 100%; height: 428px;">
+          <!-- see https://help.flickr.com/en_us/share-or-embed-flickr-photos-or-albums-rJBx6mjyX -->
+          <a data-flickr-embed="true" title="The Monterey Mural">
+            <img alt="The Monterey Mural photo credit: Dana L. Brown on Flickr" width="2048" height="428"
+              src="https://live.staticflickr.com/65535/48291467982_4c00681ae3_k.jpg">
+          </a>
+          <script async src="//embedr.flickr.com/assets/client-code.js"></script>
+        </div>
         
         <!-- More credit to Dana...and Creative Commons -->
         <span class="flickr-cc-license">
