@@ -90,6 +90,20 @@
       .catalog-list dd.list-xref::before {
         content: "see ";
       }
+
+      span.flickr-cc-license {
+        margin: 0;
+        text-decoration: underline;
+      }
+      .flickr-cc-license img {
+        width: 16px;
+        height: 16px;
+        float: left;
+        margin-right: 4px;
+      }
+      .flickr-cc-license a {
+        color: inherit;
+      }
     </style>
   </head>
 
@@ -153,23 +167,20 @@
         </a>
         <script async src="//embedr.flickr.com/assets/client-code.js"></script>
         
-        <span id="flickr-cc-credit">
-          <span class="cc-license-icons">
-            <span class="cc-icon">
-              <img alt="cc logo" src="https://creativecommons.org/images/deed/cc_icon_white_x2.png">
-            </span>
-            <span class="cc-icon">
-              <img src="https://creativecommons.org/images/deed/attribution_icon_white_x2.png">
-            </span>
-            <span class="cc-icon">
-              <img src="https://creativecommons.org/images/deed/sa_white_x2.png">
-            </span>
-          </span>
-          <a title="Attribution-ShareAlike License" rel="noreferrer nofollow"
-            href="https://creativecommons.org/licenses/by-sa/2.0/">Some rights reserved</a> by 
-          <a title="Dana L. Brown" rel="noreferrer nofollow"
-            href="https://twitter.com/blondehat" rel="noreferrer nofollow">Dana L. Brown</a>
-        </span>
+        <!-- More credit to Dana...and Creative Commons -->
+        <span class="flickr-cc-license">
+          <img alt="CC logo" src="https://creativecommons.org/images/deed/cc_icon_white_x2.png">
+          <img alt="BY logo" src="https://creativecommons.org/images/deed/attribution_icon_white_x2.png">
+          <img alt="SA logo" src="https://creativecommons.org/images/deed/sa_white_x2.png">
+          <a title="Creative Commons Attribution-ShareAlike License" rel="noreferrer nofollow"
+            href="https://creativecommons.org/licenses/by-sa/2.0/">
+            <em>Some rights reserved.</em>
+          </a>
+          By 
+          <a title="Dana L. Brown" rel="noreferrer nofollow" href="https://twitter.com/blondehat">
+            Dana L. Brown
+          </a>
+        </span><!-- end flickr-cc-license span -->
 
       </section><!-- end frontispiece section -->
 
