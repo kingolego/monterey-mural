@@ -48,11 +48,14 @@
         list-style-type: none;
         margin: 0;
       }
-      li > article > * {
+      article.puff-link {
+        clear: both;
+      }
+      article.puff-link > * {
         margin-bottom: 4px;
         margin-top: 4px;
       }
-      li > article > img {
+      article.puff-link > img {
         width: 32px;
         height: 32px;
         float: left;
@@ -311,13 +314,14 @@
         <h3>On the Web and <em>Elsewhere</em></h3>
         <!-- manually curated, so using ordered list...but without ordinals -->
         <ol class="unadorned">
-          <li class="about">
-            <article class="external-link">
+          <li>
+            <article class="puff-link">
               <h4><a title="from the Benicia Herald" rel="noopener nofollow"
                 href="https://beniciaheraldonline.com/last-stop-of-a-great-wanderer/" >
                 <cite>&ldquo;Last stop of a great wanderer&rdquo;</cite></a> by Jim Lessenger,
                 <a href="https://beniciaheraldonline.com/"><cite>Benicia Herald</cite></a>,
-                <time datetime="2015-09-09">September 8, 2015</time>.</h4>
+                <time datetime="2015-09-09">September 8, 2015</time>.
+              </h4>
               <p style="text-indent: 40px;">
                 After moving his home and studio to Benicia in 1985,
                 Granizo soon embarked on a series portraying prominent early Benicians, 
@@ -326,10 +330,11 @@
               </p>
             </article>
           </li>
-          <li class="about">
-            <article class="external-link">
+          <li>
+            <article class="puff-link">
               <h4><cite>&ldquo;Civic Auditorium Mural to be Unvieled in August&rdquo;</cite>,
-                <cite>The [Santa Cruz] Sentinel</cite>, <time datetime="1981-07-20">July 20, 1981</time>.</h4>
+                <cite>The [Santa Cruz] Sentinel</cite>, <time datetime="1981-07-20">July 20, 1981</time>.
+              </h4>
               <blockquote cite="https://www.newspapers.com/image/?clipping_id=2454038&fcfToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVlLXZpZXctaWQiOjYyNDg1Nzc1LCJpYXQiOjE1OTUyMjMwMjEsImV4cCI6MTU5NTMwOTQyMX0.0QsS0BrFfGTAWrpDovJkCFILkCnPzs46sm-xfqVHwvY#">
                 &ldquo;I hoped by doing something of this quality, it would get the city pregnant,
                 and they would have to give birth to many murals by many, many artists.&rdquo;
@@ -339,33 +344,39 @@
         </ol>
       </section><!-- end artist section -->
 
-      <section id="links">
-        <h2>More about the <i>Mural</i></h2>
+      <section id="more-links">
+        <h2>More about <em>the Mural</em></h2>
+        <h3>Physical characteristics</h3>
+        <h3>Sources and further reading</h3>
         <!-- manually curated, so using ordered list...but without ordinals -->
         <ol class="unadorned">
-          <li hidden id="template" class="featured-link">
-            <article class="external-link">
+          <li hidden>
+            <article id="puff-link-template" class="puff-link featured-puff-link">
               <img hidden src="https://www.example.com/" alt="example" />
-              <h3><a title="" rel="noopener nofollow"
+              <h4><a title="" rel="noopener nofollow"
                 href="https://www.example.com/" >
-                <cite>&ldquo;...&rdquo;</cite></a> by XXX</h3>
+                <cite>&ldquo;...&rdquo;</cite></a> by XXX
+              </h4>
               <p hidden></p>
             </article>
           </li>
-          <li class="about">
-            <article class="external-link">
+          <li>
+            <article class="puff-link">
               <img src="https://walkmonterey.com/favicon.icon" alt="on Monterey Walking Tours" />
-              <h3><a title="on Monterey Walking Tours" rel="noopener nofollow"
+              <h4><a title="on Monterey Walking Tours" rel="noopener nofollow"
                 href="https://walkmonterey.com/guillermo-wagner-granizo-making-the-monterey-mural/" >
-                <cite>&ldquo;The Monterey Mural&rdquo;</cite></a> by Thom Diggins</h3>
+                <cite>&ldquo;The Monterey Mural&rdquo;</cite></a> by Thom Diggins
+              </h4>
               <p>Thom <em>digs</em> into <cite>The Monterey Herald</cite> archives for some great background on the making of the mural.</p>
             </article>
           </li>
-          <li class="about">
-            <article class="external-link">
-              <h3><a title="from the Monterey County Weekly" rel="noopener nofollow"
+          <li>
+            <article class="puff-link">
+              <h4><a title="from the Monterey County Weekly" rel="noopener nofollow"
                 href="http://www.montereycountyweekly.com/entertainment/art/an-iconic-work-of-local-public-art-is-returning-to-its-rightful-spot-after-a/article_40d13d3a-f36b-11e8-a96a-3f2e1b70e2c6.html" >
-                <cite>&ldquo;An iconic work of local public art is returning to its rightful spot after a long absence.&rdquo;</cite></a> by Walter Ryce,</h3>
+                <cite>&ldquo;An iconic work of local public art is returning to its rightful spot after a long absence.&rdquo;</cite></a>
+                by Walter Ryce
+              </h4>
               <p style="text-indent: 40px;">
                 <a href="http://www.montereycountyweekly.com/"><cite>Monterey County Weekly</cite></a>,
                 <time datetime="2018-11-29">Nov 29, 2018</time>.
@@ -375,13 +386,14 @@
               </blockquote>
             </article>
           </li>
-          <li class="about">
-            <article class="external-link">
+          <li>
+            <article class="puff-link">
               <img src="https://www.youtube.com/favicon.ico" alt="on YouTube" />
-              <h3><a title="on YouTube" rel="noopener nofollow"
+              <h4><a title="on YouTube" rel="noopener nofollow"
                 href="https://www.youtube.com/watch?v=2bKwjBWAep8" >
                 &ldquo;Monterey's Iconic Tile Mural Returns&rdquo;</a> by 
-                <a href="https://www.youtube.com/user/cityofmonterey"><cite>City of Monterey</cite></a></h3>
+                <a href="https://www.youtube.com/user/cityofmonterey"><cite>City of Monterey</cite></a>
+              </h4>
               <blockquote hidden cite="https://www.youtube.com/watch?v=2bKwjBWAep8">
                 &ldquo;Spend time with the Mural. Let it tell you its story, which is our story.
                 The Mural truly is Monterey, an icon of who and what we are ... as a place, a people and a community.&rdquo; &mdash;
@@ -390,11 +402,13 @@
               </blockquote>
             </article>
           </li>
-          <li class="about">
-            <article class="external-link">
-              <h3><a title="on Medium" rel="noopener nofollow"
+          <li>
+            <article class="puff-link">
+              <h4><a title="on Medium" rel="noopener nofollow"
                 href="https://medium.com/@davidlaws/montereys-monumental-mosaic-mural-memorializes-marauding-mariners-more-3d6fa7f4881a" >
-                <cite>&ldquo;Monterey’s Monumental Mosaic Mural Memorializes Marauding Mariners & More&rdquo;</cite></a> by David Laws</h3>
+                <cite>&ldquo;Monterey’s Monumental Mosaic Mural Memorializes Marauding Mariners & More&rdquo;</cite></a>
+                by David Laws
+              </h4>
               <blockquote cite="https://medium.com/@davidlaws/montereys-monumental-mosaic-mural-memorializes-marauding-mariners-more-3d6fa7f4881a">
                 &ldquo;...just a few yards off the [beaten<em>, Ed.</em>]
                 <a href="https://www.seemonterey.com/things-to-do/historic-attractions/adobes/" rel="noopener nofollow">Path of History</a>,
@@ -404,42 +418,49 @@
               </blockquote>
             </article>
           </li>
-          <li class="about">
-            <article class="external-link">
+          <li>
+            <article class="puff-link">
               <img src="https://www.waymarking.com/images/logo.gif" alt="on Waymarking" />
-              <h3><a title="on Waymarking" rel="noopener nofollow"
+              <h4><a title="on Waymarking" rel="noopener nofollow"
                    href="https://www.waymarking.com/waymarks/WMT8J_Monterey_Mural_Monterey_Ca" >
-                   <cite>&ldquo;The Monterey Mural, Monterey CA&rdquo;</cite> by WalruZ</a></h3>
+                   <cite>&ldquo;The Monterey Mural, Monterey CA&rdquo;</cite> by WalruZ</a>
+              </h4>
               <p>While the photos show the mural's original installation, the location is close enough that the geo-coordinates should still be good.</p>
             </article>
           </li>
-          <li class="about">
-            <article class="external-link">
-              <h3><a title="from the Monterey Herald" rel="noopener nofollow"
+          <li>
+            <article class="puff-link">
+              <h4><a title="from the Monterey Herald" rel="noopener nofollow"
                 href="https://www.montereyherald.com/2018/10/16/monterey-conference-center-gets-back-its-historical-mural/" >
-                &ldquo;Monterey Conference Center gets back its historical mural&rdquo;</a> by Carly Mayberry,</h3>
+                &ldquo;Monterey Conference Center gets back its historical mural&rdquo;</a>
+                by Carly Mayberry
+              </h4>
               <p style="text-indent: 40px;">
                 <a href="https://www.montereyherald.com/"><cite>Monterey Herald</cite></a>,
                 <time datetime="2018-10-16">October 16, 2018</time>.
               </p>
             </article>
           </li>
-          <li class="about">
-            <article class="external-link">
-              <h3><a title="from the Monterey Herald" rel="noopener nofollow"
+          <li>
+            <article class="puff-link">
+              <h4><a title="from the Monterey Herald" rel="noopener nofollow"
                 href="https://www.montereyherald.com/2015/09/02/monterey-mural-at-conference-center-to-be-restored/" >
-                &ldquo;Monterey Mural at conference center to be restored&rdquo;</a> by Tom Wright,</h3>
+                &ldquo;Monterey Mural at conference center to be restored&rdquo;</a>
+                by Tom Wright
+              </h4>
               <p style="text-indent: 40px;">
                 <a href="https://www.montereyherald.com/"><cite>Monterey Herald</cite></a>,
                 <time datetime="2015-09-02">September 2, 2015</time>.
               </p>
             </article>
           </li>
-          <li class="about">
-            <article class="external-link">
-              <h3><a title="from the Monterey Herald" rel="noopener nofollow"
+          <li>
+            <article class="puff-link">
+              <h4><a title="from the Monterey Herald" rel="noopener nofollow"
                 href="https://www.montereyherald.com/2009/05/18/brighter-mural-renovation-completed-at-conference-center/" >
-                &ldquo;Brighter Mural: Renovation completed at conference center&rdquo;</a> by Kevin Howe,</h3>
+                &ldquo;Brighter Mural: Renovation completed at conference center&rdquo;</a>
+                by Kevin Howe
+              </h4>
               <p style="text-indent: 40px;">
                 <a href="https://www.montereyherald.com/"><cite>Monterey Herald</cite></a>,
                 <time datetime="2009-05-18">May 18, 2009</time>.
@@ -449,9 +470,9 @@
         </ol>
       </section><!-- end links section -->
       
-      <section id="about">
+      <section id="about-us">
         <h2 hidden>About us</h2>
-      </section><!-- end about (this website and its author) section -->
+      </section><!-- end about-us (this website and its author) section -->
     </article><!-- end main article -->
 
     <footer>
