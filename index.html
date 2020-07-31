@@ -77,6 +77,12 @@
       .catalog-list dd.list-xref::before {
         content: "see ";
       }
+      @media only screen and (max-width: 480px) and (orientation: portrait) {
+        dl.catalog-list {
+          columns: 1;
+          margin-left: 5px;
+        }
+      }
 
       p.flickr-cc-license {
         margin-top: 8px;
