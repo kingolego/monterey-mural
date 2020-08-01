@@ -6,12 +6,9 @@ header {
   top: 0;
   background-color: inherit;
 }
-nav {
-  text-align: right;
-  margin: 0;
-  padding: 0;
-}
+
 nav ol {
+  text-align: right;
   padding: 0.5em;
   height: 1em;
 }
