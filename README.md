@@ -1,7 +1,7 @@
 # The Monterey Mural by Guillermo Wagner Granizo
 This colorful tile mural, depicting the history of Monterey, California,
 was created by Guillermo Wagner Granizo in 1984.
-The mural is displayed on the west wall of the Monterey Conference Center
+The mural is displayed outdoors on the west wall of the Monterey Conference Center
 and features dozens of scenes across centuries of equally colorful history
 in (Alta) California’s first (and only) capital.
 
