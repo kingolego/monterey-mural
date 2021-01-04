@@ -10,9 +10,12 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="preload" as="style" href="/monterey-mural/stylesheets/mural-dark.css" />
     <link rel="preload" as="style" href="/monterey-mural/stylesheets/header-navbar.css" />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
     <link rel="stylesheet" href="/monterey-mural/stylesheets/mural-dark.css">
     <link rel="stylesheet" href="/monterey-mural/stylesheets/header-navbar.css">
+    /* Google's Material Design icon library: google.github.io/material-design-icons */
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
     <style>
       h1 {
@@ -56,10 +59,14 @@
   <header>
     <nav>
       <ol class="unadorned">
-        <li><a href="/monterey-mural/">Back to the Mural</a></li>
-        <li><a href="/monterey-mural/#artist">About the Artist</a></li>
-        <li><a title="on Google Maps" rel="noopener nofollow"
-          href="https://goo.gl/maps/2L8hA37ys8Sr69MLA">Find the Mural</a></li>
+        <li><a title="Back to the Mural" href="/monterey-mural/">
+          <i class="material-icons md-my-navbar">arrow_back</i></a></li>
+        <li><a title="Find the Mural" rel="noopener nofollow" href="https://goo.gl/maps/2L8hA37ys8Sr69MLA">
+          <i class="material-icons md-my-navbar">place</i></a></li>
+        <li><a title="About the Artist" href="/monterey-mural/#artist">
+          <i class="material-icons md-my-navbar">palette</i></a></li>
+        <li><a title="See the Source Code" href="https://github.com/kingolego/monterey-mural">
+          <i class="material-icons md-my-navbar">source</i></a></li>
       </ol>
     </nav>
   </header>
