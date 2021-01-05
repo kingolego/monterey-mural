@@ -7,9 +7,11 @@ header {
   background-color: inherit;
 }
 
-nav ol {
+nav {
   padding: 12px;
   height: 24px;
+}
+nav ol {
   text-align: right;
   font-size: 0; /* hack to remove visible whitespace between list elements */
 }
