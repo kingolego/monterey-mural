@@ -8,7 +8,8 @@ header {
 }
 
 nav {
-  padding: 12px;
+  padding-top: 12px;
+  padding-right: 12px;
   height: 24px;
 }
 nav ol {
@@ -18,8 +19,6 @@ nav ol {
 nav li {
   display: inline;
   padding-right: 12px;
-  font-size: 24px;
-  color: cornflowerblue;
 }
 nav li a {
   /* hack to remove Mozilla's (dirty bathtub) focus ring, which gets left behind on return to page */
@@ -27,4 +26,9 @@ nav li a {
 }
 nav li a:hover {
   font-style: italic;
+}
+
+.material-icons.md-my-navbar {
+  color: cornflowerblue;
+  font-size: 24px;
 }
