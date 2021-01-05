@@ -1,3 +1,8 @@
+h1 {  /* At least initially, this header is the first content fitted below the navigation header... */
+  color: deepskyblue;
+  padding: 1rem;
+}
+
 header {
   width: 100%;
   padding: 0;
@@ -8,8 +13,7 @@ header {
 }
 
 nav {
-  padding-top: 12px;
-  padding-right: 12px;
+  padding: 12px;
   height: 24px;
 }
 nav ol {
