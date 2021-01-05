@@ -19,3 +19,7 @@ nav li {
   color: cornflowerblue;
   font-size: 24px;
 }
+nav li a {
+  /* hack to remove Mozilla's (dirty bathtub) focus ring, which gets left behind on return to page */
+  outline: 0; 
+}
