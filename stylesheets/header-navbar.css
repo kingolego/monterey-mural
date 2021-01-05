@@ -7,17 +7,17 @@ header {
   background-color: inherit;
 }
 
-nav {
-  padding: 0.5em;
-  height: 1em;
-}
 nav ol {
+  padding: 12px;
+  height: 24px;
   text-align: right;
   font-size: 0; /* hack to remove visible whitespace between list elements */
 }
 nav li {
   display: inline;
-  padding-right: 0.5em;
+  padding-right: 12px;
+  font-size: 24px;
+  color: cornflowerblue;
 }
 nav li a {
   /* hack to remove Mozilla's (dirty bathtub) focus ring, which gets left behind on return to page */
@@ -25,9 +25,4 @@ nav li a {
 }
 nav li a:hover {
   font-style: italic;
-}
-
-.material-icons.md-my-navbar {
-  color: cornflowerblue;
-  font-size: 24px;
 }
