@@ -1,5 +1,5 @@
 h1 {  /* At least initially, this header is the first content fitted below the navigation header... */
-  color: deepskyblue;
+  color: var(--accent-color, cornflowerblue);  /* accent-color is the only dependency on custom variables */
   padding: 1rem;  /* (most?) browsers' Root default ems is 16px */ 
 }
 
@@ -26,11 +26,13 @@ nav li {
   padding-right: 0.75rem; /* sb 12px == 0.75 * 16px */
 }
 nav li a {
-  color: cornflowerblue;
   font-size: 1.5rem;
   /* hack to remove Mozilla's (dirty bathtub) focus ring, which gets left behind on return to page */
   outline: 0; 
 }
 nav li a:hover {
   font-style: italic;
+}
+nav li a:visited {
+  color: var(--accent-color, cornflowerblue); /* disable color switching on navbar links */
 }
