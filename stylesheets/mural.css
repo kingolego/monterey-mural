@@ -1,0 +1,18 @@
+:root {  /* site-wide variables or custom properties */
+  /* default color theme is "dark mode" */
+  --background-color: black;
+  --foreground-color: white;
+  --accent-color: cornflowerblue;  /* links, h1 */
+  --switch-color: lavender;  /* e.g., visited link */
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--foreground-color);
+}
+a:link {
+  color: var(--accent-color);
+}
+a:visited {
+  color: var(--switch-color);
+}
