@@ -3,7 +3,7 @@
   --background-color: black;
   --foreground-color: white;
   --accent-color: cornflowerblue;  /* links, h1 */
-  --switch-color: lavender;  /* e.g., visited link */
+  --switch-color: #aaaaee;  /* e.g., visited link */
 }
 
 body {
