@@ -1,9 +1,9 @@
 :root {  /* site-wide variables or custom properties */
   /* default color theme is "dark mode" */
   --background-color: black;
-  --foreground-color: white;
+  --foreground-color: whitesmoke;
   --accent-color: cornflowerblue;  /* links, h1 */
-  --switch-color: #aaaaee;  /* e.g., visited link */
+  --switch-color: #7f7fe6;  /* e.g., visited link */
 }
 
 body {
