@@ -26,14 +26,11 @@ nav li {
   padding-right: 0.75rem; /* sb 12px == 0.75 * 16px */
 }
 nav li a {
+  color: cornflowerblue;
+  font-size: 1.5rem;
   /* hack to remove Mozilla's (dirty bathtub) focus ring, which gets left behind on return to page */
   outline: 0; 
 }
 nav li a:hover {
   font-style: italic;
-}
-
-.navbar-fontstyling {
-  color: cornflowerblue;
-  font-size: 1.5rem;
 }
