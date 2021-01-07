@@ -2,9 +2,10 @@
   /* default color theme is "dark mode" */
   --background-color: black;
   --foreground-color: white;  /* whitesmoke, maybe? */
-  /* these should be usable regardless of background */
-  --accent-color: cornflowerblue;  /* links, h1 */
-  --switch-color: #aaaaee;  /* e.g., visited link */
+  /* ideally, these should be usable regardless of background */
+  --accent-color: hsl(219, 79%, 66%);    /* aka "cornflowerblue"; for links, other emphasis */
+  --headline-color: hsl(219, 79%, 45%);  /* aka #1858cd, lighter than "cornflowerblue"; h1 */
+  --switch-color: hsl(240, 67%, 85%);    /* aka #bfbff2, darker than "lavender"; visited link */
 }
 
 body {
@@ -16,6 +17,15 @@ a:link {
 }
 a:visited {
   color: var(--switch-color);
+}
+
+.footer-text {
+  text-align: center;
+  font: italic smaller serif;
+  margin: 0.5em;
+}
+.nowrap {
+  white-space: nowrap;
 }
 
 /* styling for Creative Commons licensing and credit for Mr. Brown's photo (on Flickr) */
@@ -32,9 +42,6 @@ a:visited {
   color: inherit;
   /* hack to remove Mozilla's (dirty bathtub) focus ring, which gets left behind on return to page */
   outline: 0; 
-}
-.flickr-cc-license span {
-  white-space: nowrap;
 }
 
 /* changes to user-agent default stylesheet */
