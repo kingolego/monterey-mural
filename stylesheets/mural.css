@@ -22,12 +22,10 @@ a:visited {
 .flickr-cc-license {
   margin-top: 0.5em;
   text-align: center;
-  text-decoration: underline;
 }
 .flickr-cc-license img {
   width: 5rem;
   height: 1.25rem;
-  margin-right: 0.25rem;
   vertical-align: bottom;
 }
 .flickr-cc-license a {
