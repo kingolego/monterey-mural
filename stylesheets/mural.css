@@ -30,4 +30,9 @@ a:visited {
 }
 .flickr-cc-license a {
   color: inherit;
+  /* hack to remove Mozilla's (dirty bathtub) focus ring, which gets left behind on return to page */
+  outline: 0; 
+}
+.flickr-cc-license span {
+  white-space: nowrap;
 }
