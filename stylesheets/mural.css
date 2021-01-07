@@ -2,6 +2,7 @@
   /* default color theme is "dark mode" */
   --background-color: black;
   --foreground-color: white;  /* whitesmoke, maybe? */
+  /* these should be usable regardless of background */
   --accent-color: cornflowerblue;  /* links, h1 */
   --switch-color: #aaaaee;  /* e.g., visited link */
 }
