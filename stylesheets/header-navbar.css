@@ -1,6 +1,7 @@
 h1 {  /* At least initially, this header is the first content fitted below the navigation header... */
   color: var(--accent-color, cornflowerblue);  /* accent-color is the only dependency on custom variables */
-  padding: 1rem;  /* (most?) browsers' Root default ems is 16px */ 
+  font-size: 1.75rem;
+  padding: 1rem 1rem 0;  /* (most?) browsers' Root default ems is 16px */
 }
 
 header {
