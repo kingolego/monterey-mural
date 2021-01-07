@@ -1,7 +1,12 @@
 h1 {  /* At least initially, this header is the first content fitted below the navigation header... */
-  color: var(--accent-color, cornflowerblue);  /* accent-color is the only dependency on custom variables */
-  font-size: 1.75rem;
-  padding: 1rem 1rem 0;  /* (most?) browsers' Root default ems is 16px */
+  color: var(--headline-color, #1858cd);
+  font-size: 1.75rem;  /* 28px; (most?) browsers' Root default ems is 16px */
+  padding: 1rem 1rem 0;
+}
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+  h1 {
+    text-align: center;
+  }
 }
 
 header {
