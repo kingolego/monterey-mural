@@ -30,10 +30,11 @@ a:visited {
 
 /* styling for "embellished" (or annotated?) lists, enhanced with thumbnails and blockquotes */
 ol.embellist {
+  margin: 0;
+  padding-left: 1em;
 }
 ol.unadorned {  /* manually curated, so using ordered list...but without ordinals */
   list-style-type: none;
-  margin: 0;
 }
 article.embellist-item {
   clear: both;
