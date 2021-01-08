@@ -38,6 +38,10 @@ ol.unadorned {  /* manually curated, so using ordered list...but without ordinal
 }
 article.embellist-item {
   clear: both;
+
+}
+article.set-margin-sash1 {
+  margin-bottom: 1em;
 }
 article.embellist-item > * {
    margin-bottom: 0.25em;
