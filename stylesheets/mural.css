@@ -28,6 +28,28 @@ a:visited {
   white-space: nowrap;
 }
 
+/* styling for "embellished" (or annotated?) lists, enhanced with thumbnails and blockquotes */
+ol.embellist {
+}
+ol.unadorned {  /* manually curated, so using ordered list...but without ordinals */
+  list-style-type: none;
+  margin: 0;
+}
+article.embellist-item {
+  clear: both;
+}
+article.embellist-item > * {
+   margin-bottom: 0.25em;
+   margin-top: 0.25em;
+}
+article.embellist-item > img {
+  width: 2rem;
+  height: 2rem;
+  float: left;
+  margin-left: 0;
+  margin-right: 0.5em;
+}
+
 /* styling for Creative Commons licensing and credit for Mr. Brown's photo (on Flickr) */
 .flickr-cc-license {
   margin-top: 0.5em;
