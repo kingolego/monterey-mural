@@ -19,6 +19,11 @@ a:visited {
   color: var(--switch-color);
 }
 
+img.gray-cameo {
+  background-color: gray;
+  border-radius: 50%;
+}
+
 .footer-text {
   text-align: center;
   font: italic smaller serif;
