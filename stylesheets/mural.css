@@ -24,6 +24,10 @@ img.gray-cameo {
   border-radius: 50%;
 }
 
+.get-small {
+  font-size: small;
+}
+
 .footer-text {
   text-align: center;
   font: italic smaller serif;
