@@ -56,7 +56,7 @@ article.embellist-item > * {
    margin-bottom: 0.25em;
    margin-top: 0.25em;
 }
-article.embellist-item > img {
+article.embellist-item > img, .embellist-thumbnail {
   width: 2rem;
   height: 2rem;
   float: left;
