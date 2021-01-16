@@ -6,3 +6,4 @@ and features dozens of scenes across centuries of equally colorful history
 in (Alta) California’s first (and only) capital.
 
 This tribute or fan website is a non-commercial activity for educational purposes.
+It is currently deployed using the magic of Github Pages here: https://kingolego.github.io/monterey-mural/
