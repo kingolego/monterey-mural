@@ -9,8 +9,8 @@
 		</marker>
 	</defs>
 	<rect width="549" height="108" fill="url(#tile)" />
-	<text x="272" y="20" height="120" fill="white">48 feet (14.5 meters)</text>
-	<text x="30" y="54" height="120" fill="white">11 feet (3.3 meters)</text>
+	<text x="200" y="20" height="120" fill="white">48 feet (14.5 meters)</text>
+	<text x="30" y="80" height="120" fill="white">11 feet (3.3 meters)</text>
 	<polyline points="4,25 545,25" stroke="white" marker-start="url(#arrow)" marker-end="url(#arrow)" />
 	<polyline points="27,4 27,104" stroke="white" marker-start="url(#arrow)" marker-end="url(#arrow)" />
 </svg>
