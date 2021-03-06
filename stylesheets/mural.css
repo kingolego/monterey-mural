@@ -80,10 +80,29 @@ article.embellist-item > img, .embellist-thumbnail {
   outline: 0; 
 }
 
+/* styling for the catalog's descriptive list */
+dl.catalog-list {
+  columns: 2;
+  margin-left: 1rem;
+}
+.catalog-list dt::after {
+}
+.catalog-list dd.list-xref {
+  font-style: italic;
+}
+.catalog-list dd.list-xref::before {
+  content: "see ";
+}
+
 /* changes to user-agent default stylesheet */
 @media only screen and (max-width: 480px) and (orientation: portrait) {
   blockquote {
     margin-inline-start: 1em;
     margin-inline-end: 1em;
+  }
+
+  dl.catalog-list {
+    columns: 1;
+    margin-left: 0.25rem;
   }
 }
