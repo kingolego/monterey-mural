@@ -34,7 +34,7 @@
       </nav>
     </header>
 
-    <article class="catalog" role="main">
+    <article class="catalog" id="catalog" role="main">
       <h1>The Mural Catalog of Subjects</h1>
 
       <section class="catalog" id="catalog/category">
@@ -46,19 +46,21 @@
         <ul>
           <li>Animals</li>
           <li>Flags</li>
-          <li><a href="#catalog/category/people/list">People</a></li>
+          <li><a href="#catalog/category/people">People</a></li>
           <li>Places</li>
           <li>Scenes</li>
+          <li>Transport</li>
         </ul>
 
         <h3 id="catalog/category/people">People</h3>
-        <dl id="catalog/category/people/list" class="catalog-list">
+        <dl id="catalog/category/people[list]" class="catalog-list">
           <dt data-tile-location="E19-20">
             <a title="Juan Bautista de Anza Historic Trail" rel="noopener nofollow"
               href="https://www.nps.gov/juba/index.htm">
               de Anza, Juan Bautista</a> (1736-1788) ... E19-20
           </dt>
           <dd>Founder of San Francisco</dd>
+          <dt data-tile-location="D2-3">de la Ascensión, Antonio ... D2-3</dt>
           <dt data-tile-location="C23">
             <a title="The Patriot Pirate by Michael Melzer" rel="noopener nofollow"
               href="https://www.amazon.com/Patriot-Pirate-Michael-Melzer/dp/1366866924">
@@ -122,9 +124,9 @@
           <dd>The 5th Count of <em>Monte Rey</em> was the Viceroy of New Spain when Vizcaíno sailed.</dd>
         </dl><!-- end People -->
         
-        <h3 id="catalog/scenes">Scenes</h3>
-        <dl id="catalog/scenes[list]" class="catalog-list" >
-          <dt data-tile-location="2-M5:3-B5">Bear and Bull Fight ... 2-M5:3-B5</dt>
+        <h3 id="catalog/category/scenes">Scenes</h3>
+        <dl id="catalog/category/scenes[list]" class="catalog-list" >
+          <dt data-tile-location="E18-20">Bear and Bull Fight ... E18-20</dt>
           <dt data-tile-location="B20:C24">
             <a title="Naval War College Review (2002) 55(4), Article 25" rel="noopener nofollow"
               href="https://digital-commons.usnwc.edu/cgi/viewcontent.cgi?article=2453&context=nwc-review">
@@ -132,35 +134,42 @@
             <a title="coordinates B20:C24" href="/monterey-mural/scenes.html#battle-of-monterey">B20:C24</a>
           </dt>
           <dd class="list-xref">Bouchard, Hipólito</dd>
-          <dt data-tile-location="5-C1:M3">Cannery Row ... 5-C1:M3</dt>
-          <dt data-tile-location="1-A1:E9">Early European Explorers of the northeastern Pacific ... 1-A1:E9</dt>
+          <dt data-tile-location="A49:C53">Cannery Row ... A49:C53</dt>
+          <dt data-tile-location="C1:I5">European Explorers' Ship ... C1:I5</dt>
           <dd class="list-xref">Cabrillo on La Victoria (1542–1543)</dd>
           <dd class="list-xref">Drake on the Golden Hind (1577–1580)</dd>
           <dd class="list-xref">Vizcaíno on the San Diego (1602-1603)</dd>
-          <dt data-tile-location="2-A1:G2">Explorers' Longboat (Cabrillo?) ...
-            <a title="coordinates 2-A1:G2" href="/monterey-mural/scenes.html#explorers-longboat">2-A1:G2</a>
+          <dt data-tile-location="A7:B12">Explorers' Longboat (Cabrillo?) ...
+            <a title="coordinates A7:B12" href="/monterey-mural/scenes.html#explorers-longboat">A7:B12</a>
           </dt>
-          <dt data-tile-location="2-A4:B4">Fandango ... 2-A4:B4</dt>
-          <dt data-tile-location="5-E5:6-D9">Fisherman's Wharf & Harbor ... 5-E5:6-D9</dt>
-          <dt data-tile-location="2-H6:L7">Founding of Monterey (1770) ...
-            <a title="coordinates 2-H6:L7" href="/monterey-mural/scenes.html#founding-of-monterey">2-H6:L7</a>
+          <dt data-tile-location="D18-21">Fandango ... D18-21</dt>
+          <dt data-tile-location="C41-42">Filmmaking ... C41-42</dt>
+          <dt data-tile-location="E49:G61">
+            <a title="Fisherman's Wharf and Harbor" rel="noopener nofollow" href="https://www.montereywharf.com/">
+              Fisherman's Wharf</a> and Harbor ... E49:G61
+          </dt>
+          <dt data-tile-location="F13:G17">
+            <a title="Founding of Monterey" rel="noopener nofollow" href="http://mchsmuseum.com/colonization.html">
+              Founding of Monterey</a> (1770) ...
+            <a title="coordinates F13:G17" href="/monterey-mural/scenes.html#founding-of-monterey">F13:G17</a>
           </dt>
           <dd class="list-xref">Serra, Junípero</dd>
           <dd class="list-xref">de Portolá, Gaspar</dd>
-          <dt data-tile-location="3-D1:I9">Galleon (supply ship) ... 3-D1:I9</dt>
-          <dt data-tile-location="2-G3:L5">Mission Life (and Death) ... 2-G3:L5</dt>
-          <dt data-tile-location="4-F1:G1">Monterey Pop Festival (1967) ... 4-F1:G1</dt>
-          <dt data-tile-location="3-G4:H5">19th Century Yankees ... 3-G4:H5</dt>
-          <dt data-tile-location="3-G4:H5">19th Century Things to Do ... 3-G4:H5</dt>
-          <dt data-tile-location="1-D3:E4">Ohlone Basket Bearers ... 1-D3:E4</dt>
-          <dt data-tile-location="2-B7:G9">Ohlone Hunting and Gathering (? B.C.E.) ...
-            <a title="coordinates 2-B7:G9" href="/monterey-mural/scenes.html#ohlone-hunting-and-gathering">2-B7:G9</a>
+          <dt data-tile-location="D23:G26">Galleon (supply ship) Tableaux ... D23:G26</dt>
+          <dt data-tile-location="C21:I29">Galleon (supply ship) Unloading ... C21:I29</dt>
+          <dt data-tile-location="B37:C38">Golf and Tennis ... B37:C38</dt>
+          <dt data-tile-location="F23:G24">Land of Plenty ... F23:G24</dt>
+          <dt data-tile-location="D16:E17">Mission Burial ... D16:E17</dt>
+          <dt data-tile-location="A37:B38">Music Festivals (Bach and Jazz) ... A37:B38</dt>
+          <dt data-tile-location="D23:G26">19th Century Yankees ... D23:G26</dt>
+          <dt data-tile-location="C4:D5">Ohlone Basket Bearers ... C4:D5</dt>
+          <dt data-tile-location="G7:I11">Ohlone Hunting and Gathering ...
+            <a title="coordinates G7:I11" href="/monterey-mural/scenes.html#ohlone-hunting-and-gathering">G7:I11</a>
           </dt>
-          <dt data-tile-location="2-A3:F5">Ohlone Sweat Lodge ... 2-A3:F5</dt>
-          <dt data-tile-location="4-I3:K3">20th Century Things to Do ... 4-I3:K3</dt>
+          <dt data-tile-location="C6:E11">Ohlone Sweat Lodge ... C6:E11</dt>
           <dd hidden></dd><!-- keep validator quiet -->
         </dl><!-- end Scenes -->
-      </section><!-- end section catalog/category-list -->
+      </section><!-- end section catalog/category -->
     </article><!-- end main/catalog article -->
 
     <footer>
