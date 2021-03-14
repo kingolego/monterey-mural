@@ -8,6 +8,14 @@ h1 {  /* At least initially, this header is the first content fitted below the n
     text-align: center;
   }
 }
+@media print {
+  header nav {
+    display: none;
+  }
+  h1 {
+    padding: 0;
+  }
+}
 
 header {
   width: 100%;
