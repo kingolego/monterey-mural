@@ -112,4 +112,8 @@ dl.catalog-list {
     background-color: transparent;
     color: black;
   }
+    
+  header nav {
+   display: none;
+  }
 }
