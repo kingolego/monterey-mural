@@ -2,7 +2,7 @@
   /* default color theme is "dark mode" */
   --background-color: black;
   --foreground-color: white;  /* whitesmoke, maybe? */
-  /* ideally, these should be usable regardless of background */
+  /* ideally, these should be usable regardless of background; keep page printable -- see media query at EOF */
   --accent-color: hsl(219, 79%, 66%);    /* aka "cornflowerblue"; for links, other emphasis */
   --headline-color: hsl(219, 79%, 45%);  /* aka #1858cd, lighter than "cornflowerblue"; h1 */
   --switch-color: hsl(240, 67%, 85%);    /* aka #bfbff2, darker than "lavender"; visited link */
@@ -104,5 +104,12 @@ dl.catalog-list {
   dl.catalog-list {
     columns: 1;
     margin-left: 0.25rem;
+  }
+}
+
+@media print {
+  body { /* browser default for background-color is transparent */
+    background-color: transparent;
+    color: black;
   }
 }
