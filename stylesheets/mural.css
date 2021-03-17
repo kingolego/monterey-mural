@@ -19,6 +19,9 @@ a:visited {
   color: var(--switch-color);
 }
 
+img.cameo {
+  border-radius: 50%;
+}
 img.gray-cameo {
   background-color: gray;
   border-radius: 50%;
