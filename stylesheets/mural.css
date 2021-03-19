@@ -73,6 +73,11 @@ article.embellist-item > img, .embellist-thumbnail {
   margin-left: 0;
   margin-right: 0.5em;
   margin-bottom: 0.5em;
+  border-radius: 20%;
+}
+
+.float-right {
+  float: right;
 }
 
 /* styling for Creative Commons licensing and credit for Mr. Brown's photo (on Flickr) */
