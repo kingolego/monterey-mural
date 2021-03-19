@@ -66,6 +66,13 @@ article.embellist-item > img, .embellist-thumbnail {
   margin-left: 0;
   margin-right: 0.5em;
 }
+.embellist-clip {
+  width: 4rem;
+  height: 4rem;
+  float: left;
+  margin-left: 0;
+  margin-right: 0.5em;
+}
 
 /* styling for Creative Commons licensing and credit for Mr. Brown's photo (on Flickr) */
 .flickr-cc-license {
