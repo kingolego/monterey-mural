@@ -18,6 +18,10 @@ a:link {
 a:visited {
   color: var(--switch-color);
 }
+/* use different cursor to indicate that the (off-site) link opens a new window or tab */
+a[target="_blank"] {
+  cursor: alias;
+}
 
 img.cameo {
   border-radius: 50%;
