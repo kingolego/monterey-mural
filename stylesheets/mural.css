@@ -49,12 +49,17 @@ ol.embellist {
   margin: 0;
   padding-left: 1em;
 }
+ol.embellist:after {
+  content: '';
+  display: block;
+  clear: both;
+}
 ol.unadorned {  /* manually curated, so using ordered list...but without ordinals */
   list-style-type: none;
 }
+
 article.embellist-item {
   clear: both;
-
 }
 article.set-margin-sash1 {
   margin-bottom: 1em;
