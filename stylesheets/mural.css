@@ -89,17 +89,17 @@ article.embellist-item > img, .embellist-thumbnail {
   float: right;
 }
 
-/* styling for Creative Commons licensing and credit for Mr. Brown's photo (on Flickr) */
-.flickr-cc-license {
+/* styling for Creative Commons licensing */
+.creative-commons-license {
   margin-top: 0.5em;
   text-align: center;
 }
-.flickr-cc-license img {
+.creative-commons-license img {
   width: 5rem;
   height: 1.25rem;
   vertical-align: bottom;
 }
-.flickr-cc-license a {
+.creative-commons-license a {
   color: inherit;
   /* hack to remove Mozilla's (dirty bathtub) focus ring, which gets left behind on return to page */
   outline: 0; 
