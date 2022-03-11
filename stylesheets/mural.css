@@ -116,11 +116,14 @@ dl.catalog-list {
 }
 .catalog-list dt::after {
 }
-.catalog-list dd.list-xref {
+.catalog-list dd.list-xref, dd.list-currently {
   font-style: italic;
 }
 .catalog-list dd.list-xref::before {
   content: "see ";
+}
+.catalog-list dd.list-currently::before {
+  content: "now ";
 }
 
 /* changes to user-agent default stylesheet */
