@@ -114,16 +114,25 @@ dl.catalog-list {
   columns: 2;
   margin-left: 1rem;
 }
+/* suppress all addresses in the catalog's descriptive list */
+.catalog-list address {
+  display: none;
+}
 .catalog-list dt::after {
 }
-.catalog-list dd.list-xref, dd.list-currently {
+.catalog-list dd.list-aka, dd.list-currently, dd.list-xref  {
   font-style: italic;
+}
+.catalog-list dd.list-aka::before {
+  content: "aka ";
+}
+.catalog-list dd.list-currently::before {
+  content: "now ";
 }
 .catalog-list dd.list-xref::before {
   content: "see ";
 }
-.catalog-list dd.list-currently::before {
-  content: "now ";
+.catalog-list dd::after {
 }
 
 /* changes to user-agent default stylesheet */
